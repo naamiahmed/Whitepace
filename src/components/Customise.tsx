@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -11,22 +11,22 @@ const Hero = () => {
             <div className="bg-white rounded-2xl shadow-2xl p-1 transform rotate-3 hover:rotate-1 transition-transform duration-300">
               <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl h-96 flex items-center justify-center">
                 <div className="text-white text-center space-y-4">
-                  <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto">
+                  {/* <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto">
                     <Play className="w-8 h-8" />
                   </div>
                   <p className="text-lg font-semibold">Interactive Dashboard</p>
-                  <p className="text-sm opacity-90">Experience the future of productivity</p>
+                  <p className="text-sm opacity-90">Experience the future of productivity</p> */}
                 </div>
               </div>
             </div>
             
             {/* Floating elements */}
-            <div className="absolute -top-4 -right-4 w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+            {/* <div className="absolute -top-4 -right-4 w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg animate-bounce">
               <span className="text-2xl">📊</span>
             </div>
             <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-green-400 rounded-full flex items-center justify-center shadow-lg animate-pulse">
               <span className="text-xl">✨</span>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Column - Content */}
@@ -47,7 +47,7 @@ Customise the app with plugins, custom themes and multiple text editors (Rich Te
               </button>
             </div>
 
-            <div className="flex items-center space-x-8 text-sm text-gray-500">
+            {/* <div className="flex items-center space-x-8 text-sm text-gray-500">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                 <span>Free to use</span>
@@ -56,7 +56,7 @@ Customise the app with plugins, custom themes and multiple text editors (Rich Te
                 <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                 <span>No credit card required</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
