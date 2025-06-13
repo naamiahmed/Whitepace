@@ -42,7 +42,7 @@ Customise the app with plugins, custom themes and multiple text editors (Rich Te
 
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl">
-                <span>Try Whitepace free</span>
+                <span>Let's Go</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
             </div>
