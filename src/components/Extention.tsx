@@ -10,11 +10,11 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-100 leading-tight">
-                Get More Done with
-                <span className="text-blue-100 block">Whitepace</span>
+                Use as Extension
+                <span className="text-blue-100 block"></span>
               </h1>
               <p className="text-xl text-gray-100 leading-relaxed max-w-lg">
-                Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks.
+Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes.
               </p>
             </div>
 

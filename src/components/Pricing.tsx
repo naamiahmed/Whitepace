@@ -68,11 +68,11 @@ const Pricing = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Simple, Transparent Pricing
+            Choose Your Plan
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          {/* <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Choose the perfect plan for your team. All plans include a 14-day free trial with no credit card required.
-          </p>
+          </p> */}
 
           {/* Billing Toggle */}
           <div className="flex items-center justify-center space-x-4 mb-8">
